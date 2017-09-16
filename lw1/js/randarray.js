@@ -2,7 +2,7 @@
 const N = 10;
 var find;
 var i;
-var arr = [];
+var randomarr = [];
 var ok = false;
 var out = "";
 
@@ -12,9 +12,9 @@ var find = prompt("Введите искомое число: ");
   }
  
 for(i = 1; i <= N; i++) {
-  arr[i] = Math.floor(Math.random() * (10 - 1)) + 1;
+  randomarr[i] = Math.floor(Math.random() * (10 - 1)) + 1;
   out = out + arr[i] + "\n";
-  if (arr[i] == find) {
+  if (randomarr[i] == find) {
     ok = true;
   }	
 }
