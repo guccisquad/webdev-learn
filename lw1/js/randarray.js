@@ -1,5 +1,5 @@
 "use strict"
-const N = 10;
+const N = 9;
 var searchedValue;
 var i;
 var randomArr = [];
@@ -12,11 +12,12 @@ for(i = 1; i <= N; i++) {
 }
 
 var searchedValue = prompt("Введите искомое число: ");
-if ( (searchedValue == "") || (isNaN (searchedValue) ) ) {
+if ((searchedValue == "") || (isNaN (searchedValue))) {
   alert("Error!");
+  windows.stop;
 }
  
-for(i = 1; i <= N; i++) {  
+for(i = 0; i <= N; i++) {  
   if (randomArr[i] == searchedValue) {
     isFound = true;
   }	
