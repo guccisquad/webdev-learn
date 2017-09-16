@@ -6,7 +6,7 @@ var randomArr = [];
 var isFound = false;
 var output = "";
 
-var find = prompt("Введите искомое число: ");
+var searchedValue = prompt("Введите искомое число: ");
   if ( (searchedValue == "") || (isNaN (searchedValue) ) ) {
     alert("Error!");
   }
