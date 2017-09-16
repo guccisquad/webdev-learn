@@ -6,16 +6,16 @@ var randomArr = [];
 var isFound = false;
 var output = "";
 
-for(i = 1; i <= N; i++) {
-  randomArr[i] = Math.floor(Math.random() * (10 - 1)) + 1;
+for(i = 0; i <= N; i++) {
+  randomArr[i] = Math.floor(Math.random() * (16 - 1)) + 1;
   output = output + randomArr[i] + "\n";
 }
 
 var searchedValue = prompt("Введите искомое число: ");
-if ((searchedValue == "") || (isNaN (searchedValue))) {
-  alert("Error!");
+  if ( (searchedValue == "") || (isNaN (searchedValue) || (searchedValue == null) ) ) {
+    alert("Error!");
   windows.stop;
-}
+  }
  
 for(i = 0; i <= N; i++) {  
   if (randomArr[i] == searchedValue) {
@@ -25,7 +25,7 @@ for(i = 0; i <= N; i++) {
 
 if (!isFound) {
   output = output + "Цифры " + searchedValue + " нет";
-} else {
+ } else {
   output = output + "Есть цифра " + searchedValue; 
 }
 alert(output);
