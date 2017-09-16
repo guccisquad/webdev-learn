@@ -6,22 +6,25 @@ var randomArr = [];
 var isFound = false;
 var output = "";
 
-var searchedValue = prompt("Введите искомое число: ");
-  if ( (searchedValue == "") || (isNaN (searchedValue) ) ) {
-    alert("Error!");
-  }
- 
 for(i = 1; i <= N; i++) {
-  randomarr[i] = Math.floor(Math.random() * (10 - 1)) + 1;
-  output = output + randarr[i] + "\n";
-  if (randomarr[i] == searchedValue) {
-    ok = true;
+  randomArr[i] = Math.floor(Math.random() * (10 - 1)) + 1;
+  output = output + randomArr[i] + "\n";
+}
+
+var searchedValue = prompt("Введите искомое число: ");
+if ( (searchedValue == "") || (isNaN (searchedValue) ) ) {
+  alert("Error!");
+}
+ 
+for(i = 1; i <= N; i++) {  
+  if (randomArr[i] == searchedValue) {
+    isFound = true;
   }	
 }
 
-if (!ok) {
+if (!isFound) {
   output = output + "Цифры " + searchedValue + " нет";
- } else {
+} else {
   output = output + "Есть цифра " + searchedValue; 
 }
 alert(output);
