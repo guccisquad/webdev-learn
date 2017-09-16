@@ -14,7 +14,7 @@ for(i = 0; i <= N; i++) {
 var searchedValue = prompt("Введите искомое число: ");
   if ( (searchedValue == "") || (isNaN (searchedValue) || (searchedValue == null) ) ) {
     alert("Error!");
-  windows.stop;
+    windows.stop;
   }
  
 for(i = 0; i <= N; i++) {  
