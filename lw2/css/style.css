@@ -19,6 +19,51 @@ header {
 	position: static;
 }
 
+footer {
+	height: 80px;
+ 	width: 100%;
+ 	margin: 0 auto;
+ 	margin-top: 510px;
+	padding-top: 25px;
+  border-top: 1px solid #DCDCDC;
+}
+
+#background_head {
+  background-image: linear-gradient(to top, rgba(17, 25, 135, 0.60), transparent 100%, rgba(248, 255, 117, 0.40), transparent 100%), url(../images/bg.jpg);
+	height: 70vh;
+	width: 100%;
+}
+
+.content {
+	height: 72px;
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 80px;
+	padding-top: 25px;
+	margin-bottom: 125px;
+ }
+
+ #info {
+	height: 80px;
+ 	width: 100%;
+ 	margin: 0 auto;
+ }
+
+ #info > p3 {
+ 	font-size: 13px;
+ 	line-height: 1.55;
+ 	float: left;
+ 	padding-left: 50px;
+ 	color: #808080;
+ }
+
+ .content > p {
+ 	line-height: 1.55;
+ 	display: block;
+ 	width: 100%
+
+ }
+
 #menu_bar > img{
 	float: left;
 	padding: 15px 0 5px 3%;
@@ -36,14 +81,7 @@ header {
 	letter-spacing: 1.9px;
 }
 
-#background_head {
-  background-image: linear-gradient(to top, rgba(17, 25, 135, 0.60), transparent 100%, rgba(248, 255, 117, 0.40), transparent 100%), url(../images/bg.jpg);
-	position: absolute;
-	height: 70vh;
-	width: 100%;
-}
-
-#titles_h h1 {
+#titles_h > h1 {
 	width: 940px;
 	height: 79px;
 	margin: 0 auto;
@@ -58,7 +96,7 @@ header {
 	padding-bottom: 42px;
 }
 
-#titles_p p {
+#titles_p > p {
 	width: 700px;
 	height: 66px;
 	margin: 0 auto;
@@ -70,7 +108,6 @@ header {
 	text-align: center;
 	vertical-align: middle;
 	padding-top: 0;
-
 }
 
 
