@@ -17,82 +17,90 @@ header {
 	height: 70px;
 	background-color: black;
 	opacity: 0.7;
-	position: absolute;
+	position: fixed;
+	z-index: 1;
 }
 
 footer {
 	height: 80px;
  	width: 100%;
  	margin: 0 auto;
- 	margin-top: 550px;
+ 	margin-top: 650px;
 	padding-top: 25px;
   border-top: 1px solid #DCDCDC;
 }
 
- a {
+a {
  	color: #369;
  }
 
-#main-form__background {
+.navbar__menu-item {
+	display: inline;
+}
+
+.navbar__logo {
+	float: left;
+	padding: 14px 0 5px 3.15%;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.navbar__menu-link {
+	color: #fff;
+	float: right;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 27px 2.72% 0 0;
+	letter-spacing: 1.9px;
+}
+
+#background {
   background-image: linear-gradient(to top, rgba(17, 25, 135, 0.60), transparent 100%, rgba(248, 255, 117, 0.40), transparent 100%), url(../images/bg.jpg);
 	height: 70vh;
 	width: 100%;
 }
 
-.main-form__content {
+.content-info {
+ 	height: 70px;
+ 	padding-top: 2px;
+	padding: 20px 0 10px 0;
+ }
+
+.content-info__item {
 	height: 72px;
-	width: 600px;
+	width: 100%;
 	margin: 0 auto;
-	margin-top: 80px;
-	padding-top: 25px;
-	margin-bottom: 125px;
+	margin-top: 50px;
+	max-width: 640px;
  }
 
- #main-form__info {
-	height: 80px;
- 	width: 100%;
- 	margin: 0 auto;
+ .content-info__item-title {
+ 	font-size: 22px;
+ 	font-weight: 700;
+ 	line-height: 1.35;
+ 	border-top: 1px solid #dedede;
+ 	border-bottom: 1px solid #dedede;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	margin-bottom: 15px;
+ 	margin-top: 20px;
  }
 
- #main-form__info p {
- 	font-size: 12px;
- 	line-height: 1.55;
- 	float: left;
- 	padding-left: 50px;
- 	color: #555;
- 	font-weight: 500;
+.background__description p {
+	width: 700px;
+	height: 79px;
+	margin: 0 auto;
+	color: #fbfbfb;
+	letter-spacing: .5px;
+	font-size: 24px;
+	line-height: 1.5;
+	font-weight: 500;
+	text-align: center;
+	vertical-align: middle;
+	padding-bottom: 42px;
  }
 
-#main-form__info img {
-	float: right;
-	padding-right: 5px;
-	height: 28px;
-	width: 28px;
-}
-
- .main-form__content p {
- 	line-height: 1.55;
- 	display: block;
- 	width: 100%
- }
-
-#menu-bar img{
-	float: left;
-	padding: 15px 0 5px 3%;
-	cursor: pointer;
-	opacity: 1;
-}
-
-#menu-bar__links a{
-	color: #fff;
-	float: right;
-	text-transform: uppercase;
-	font-size: 13px;
-	padding: 27px 3% 0 0;
-	letter-spacing: 1.9px;
-}
-
-#main-form__caption h1 {
+.background__title h1 {
 	width: 940px;
 	height: 79px;
 	margin: 0 auto;
@@ -107,21 +115,29 @@ footer {
 	padding-bottom: 42px;
 }
 
-#main-form__paragraph p {
-	width: 700px;
-	height: 66px;
-	margin: 0 auto;
-	color: #fbfbfb;
-	letter-spacing: .5px;
-	font-size: 25px;
-	line-height: 1.5;
-	font-weight: 400;
-	text-align: center;
-	vertical-align: middle;
-	padding-top: 0;
+.footer-info__text {
+	font-size: 14px;
+	font-weight: 500;
+	color: #555;
+	line-height: 1.55;
+	float: left;
+	padding-left: 55px;
 }
 
+.footer-info__twit {
+	float: right;
+	padding-right: 80px;
+}
 
+.footer-info__vk {
+	float: right;
+	padding-right: 5px;
+}
+
+.footer-info__fb {
+	float: right;
+	padding-right: 5px;
+}
 
 
 
