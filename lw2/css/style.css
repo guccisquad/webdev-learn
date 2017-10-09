@@ -1,143 +1,143 @@
 * {
-	margin: 0;
-	padding: 0;
-	font-family: Arial, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
 }
 
 body {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 header {
-	width: 100%;
-	height: 70px;
-	background-color: black;
-	opacity: 0.7;
-	position: fixed;
-	z-index: 1;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  opacity: 0.7;
+  position: fixed;
+  z-index: 1;
 }
 
 footer {
-	height: 80px;
-	width: 100%;
-	margin: 0 auto;
-	margin-top: 650px;
-	padding-top: 25px;
-	border-top: 1px solid #DCDCDC;
+  height: 80px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 650px;
+  padding-top: 25px;
+  border-top: 1px solid #DCDCDC;
 }
 
 a {
-	color: #369;
+  color: #369;
 }
 
 .navbar__menu-item {
-	display: inline;
+  display: inline;
 }
 
 .navbar__logo {
-	float: left;
-	padding: 14px 0 5px 3.15%;
-	cursor: pointer;
-	z-index: 2;
-	opacity: 1;
+  float: left;
+  padding: 14px 0 5px 3.15%;
+  cursor: pointer;
+  z-index: 2;
+  opacity: 1;
 }
 
 .navbar__menu-link {
-	color: #fff;
-	float: right;
-	text-transform: uppercase;
-	font-size: 14px;
-	padding: 27px 2.72% 0 0;
-	letter-spacing: 1.9px;
+  color: #fff;
+  float: right;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 27px 2.72% 0 0;
+  letter-spacing: 1.9px;
 }
 
 #background {
-	background-image: linear-gradient(to top, rgba(17, 25, 135, 0.60), transparent 100%, rgba(248, 255, 117, 0.40), transparent 100%), url(../images/bg.jpg);
-	height: 70vh;
-	width: 100%;
+  background-image: linear-gradient(to top, rgba(17, 25, 135, 0.60), transparent 100%, rgba(248, 255, 117, 0.40), transparent 100%), url(../images/bg.jpg);
+  height: 70vh;
+  width: 100%;
 }
 
 .content-info {
-	height: 70px;
-	padding-top: 2px;
-	padding: 20px 0 10px 0;
+  height: 70px;
+  padding-top: 2px;
+  padding: 20px 0 10px 0;
 }
 
 .content-info__item {
-	height: 72px;
-	width: 100%;
-	margin: 0 auto;
-	margin-top: 50px;
-	max-width: 640px;
+  height: 72px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 640px;
 }
 
 .content-info__item-title {
-	font-size: 22px;
-	font-weight: 700;
-	line-height: 1.35;
-	border-top: 1px solid #dedede;
-	border-bottom: 1px solid #dedede;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin-bottom: 15px;
-	margin-top: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.35;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  margin-top: 20px;
 }
 
 .content-info__item-plus {
-	float: right;
+  float: right;
 }
 
 .background__description p {
-	width: 700px;
-	height: 79px;
-	margin: 0 auto;
-	color: #fbfbfb;
-	letter-spacing: .5px;
-	font-size: 24px;
-	line-height: 1.5;
-	font-weight: 500;
-	text-align: center;
-	vertical-align: middle;
-	padding-bottom: 42px;
+  width: 700px;
+  height: 79px;
+  margin: 0 auto;
+  color: #fbfbfb;
+  letter-spacing: .5px;
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  padding-bottom: 42px;
 }
 
 .background__title h1 {
-	width: 940px;
-	height: 79px;
-	margin: 0 auto;
-	color: #fbfbfb;
-	letter-spacing: .5px;
-	font-size: 70px;
-	line-height: 1.17;
-	font-weight: 700;
-	text-align: center;
-	vertical-align: middle;
-	padding-top: 12%;
-	padding-bottom: 42px;
+  width: 940px;
+  height: 79px;
+  margin: 0 auto;
+  color: #fbfbfb;
+  letter-spacing: .5px;
+  font-size: 70px;
+  line-height: 1.17;
+  font-weight: 700;
+  text-align: center; 
+  vertical-align: middle;
+  padding-top: 12%;
+  padding-bottom: 42px;
 }
 
 .footer-info__text {
-	font-size: 14px;
-	font-weight: 500;
-	color: #555;
-	line-height: 1.55;
-	float: left;
-	padding-left: 55px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  line-height: 1.55;
+  float: left;
+  padding-left: 55px;
 }
 
 .footer-info__twit {
-	float: right;
-	padding-right: 80px;
+  float: right;
+  padding-right: 80px;
 }
 
 .footer-info__vk {
-	float: right;
-padding-right: 5px;
+  float: right;
+  padding-right: 5px;
 }
 
 .footer-info__fb {
-	float: right;
-	padding-right: 5px;
+  float: right;
+  padding-right: 5px;
