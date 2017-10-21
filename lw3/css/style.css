@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+
+* {
+  margin 0;
+  padding 0;
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+
+}
+
+.registration__form {
+	width: 47%;
+	height: 50%;
+  margin: 0 auto;
+  padding-left: 10px;
+  border: 1px solid #dedede;
+}
+
+.registration__item-caption {
+  font-family: "Comfortaa", sans-serif;
+  height: 70px;
+  margin: 0 auto;
+  color: black;
+  font-size: 18px;
+  display: inline;
+}
+
+.registration__item-input input {
+  outline: none;
+  width: 450px;
+  height: 30px;
+  font-size: 12px;
+  border: 1px solid #e6ecf0;
+  text-align: center;
+  border-radius: 5px 5px 5px 5px;
+  margin: 0 auto;
+  margin-left: 55px;
+ }
+
+ .registration__item-checkbox input {
+  color: #fff;
+  cursor: pointer;
+  margin-left: 55px;
+ }
+
+
+.registration__item-button input{
+  width: 450px;
+  height: 40px;
+  font-size: 18px;
+  border: 1px solid #FFD700;
+  text-align: center;
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+  margin-left: 55px;
+  background-image: linear-gradient(to top,#FFD700,#FFFF00);
+}
+
+
