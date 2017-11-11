@@ -1,4 +1,5 @@
-function registration(){
+function validateRegistration(event){
+  event.preventDefault();
   var userEmail = document.getElementById('email');
   var userPassword = document.getElementById('password');
   var userPasswordAgain = document.getElementById('passwordAgain');
@@ -12,6 +13,7 @@ validate = function(){
     else{
       if (userPassword.value == "" || userPassword.value == " " || userPassword.value.length < 6){
         alert('Неправильно введен пароль');
+        return;
       }
       else{
         if (userPasswordAgain.value == "" || userPasswordAgain.value == " " || userPasswordAgain.value != userPassword.value){
@@ -33,6 +35,7 @@ validate();
 
 }
 
+
 window.onload = function() {
-  document.getElementById('registration').addEventListener('submit', registration);
+  document.getElementById('registration').addEventListener('submit', validateRegistration);
 }
