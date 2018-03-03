@@ -31,4 +31,4 @@ function registration(event) {
 
 window.onload = function() {
   document.getElementById('registration').addEventListener('submit', registration);
-}
+  }
