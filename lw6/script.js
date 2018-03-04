@@ -26,7 +26,7 @@ class CoffeeMachine {
   }
 
   checkNumber(num) {
-    if ((num < 1) && (num >= this.coffeeMenu.length))
+    if ((num < 1) && (num >= this.coffeeMenu.id))
       return false;
     else
       return true;
@@ -47,7 +47,7 @@ class CoffeeMachine {
       return false;
   }
 
-  getRemainCash(remain) {
-    return remain = this.moneyCash - this.coffeeMenu[this.currentCoffeeNumber - 1].price;
+  getRemainCash() {
+    return this.moneyCash - this.coffeeMenu[this.currentCoffeeNumber - 1].price;
   }
 }
