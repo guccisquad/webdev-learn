@@ -26,10 +26,7 @@ class CoffeeMachine {
   }
 
   checkNumber(num) {
-    if ((num < 1) && (num >= this.coffeeMenu.id))
-      return false;
-    else
-      return true;
+    return (this.coffeeMenu.find(item => item.coffeeId === number) !== undefined) ? true : false;
   }
 
   checkMoney(coffeeNumber) {
