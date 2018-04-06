@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Регистрация</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <script src="scripts/jquery-3.2.1.min.js"></script>
+  <script src="scripts/registration.js"></script>
+</head>
+<body>
+  <form  id="registration">
+    <div class="registration__form">
+      <div class="registration__item-caption">
+        <h1>
+          Зарегистрируйся уже сейчас!
+        </h1>
+      </div>
+        <div class ="registration__item-input">
+          <p><input type="text" id="email" placeholder="E-Mail" value=""> </p>
+          <p><input type="password" id="password" placeholder="Пароль" value=""> </p>
+          <p><input type="password" id="passwordAgain" placeholder="Пароль еще раз" value=""> </p>
+        </div>
+        <div class="registration__item-checkbox">
+          <label>
+            <input type="checkbox" id="rules" value="Правила">Полностью согласен с правилами сайта
+          </label>
+        </div>
+        <div class="registration__item-button">
+          <p><input type="submit" id="registration" value="Регистрация"></p>
+        </div>
+    </div>
+  </form>
+</body>
+</html>
